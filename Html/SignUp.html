@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>TechWT</title>
+      <link rel="stylesheet" href="../Css/Signup.css">
+      <link rel="stylesheet" href="../Css/slicknav.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="../JavaScript/jquery.slicknav.min.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function(){
+         $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+         });
+      </script> 
+   </head>
+   <body>
+      <div id="headimg">    
+         <img  class="headingimg" src="../Images/Images/Logo21.jpg">
+      </div>
+      <nav id="mobile_menu"></nav>
+      <nav id="nav_menu">
+         <ul>
+            <li><a href="../index.html" class="current">Home</a></li>
+            <li>
+               <a href="../Html/Articles.html" >Articles</a>
+               <ul>
+                  <li><a href="../Html/Article1.html ">Galaxy Z Flip 3</a></li>
+                  <li><a href="../Html/Article2.html ">Galaxy Note 20 </a></li>
+                  <li><a href="../Html/Article3.html ">Galaxy Z Fold </a></li>
+                  <li><a href="../Html/Article4.html ">Galaxy S10 Plus</a></li>
+                  <li><a href="../Html/Article5.html">Galaxy Watch 4</a></li>
+               </ul>
+            </li>
+            <li><a href=../Html/Videos.html >Videos</a></li>
+            <li><a href=../Html/About.html >About</a>
+            <li><a href=../Html/ConatctPage.html >Contact</a></li>
+            <li>
+               <a href >Members</a>  
+               <ul>
+                  <li><a href=../Html/LogIn.html >Login</a></li>
+                  <li><a href=../Html/SignUp.html >SignUp</a></li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <div id="forms">
+         <form class="form">
+            <label for="name">Name </label>
+            <input type="text" name="name" id="name" required>
+            <label for="surname">Surname </label>
+            <input type="text" name="surname" id="surname" required>
+            <label for="email_address">Email </label>
+            <input type="email" name="email" id="email" >
+            <label for="uname">Username </label>
+            <input type="text" name="name" id="name" required>
+            <label for="password">Password </label>
+            <input type="password" name="password" id="password" required>
+            <label for="password">Password </label>
+            <input type="password" name="password" id="password" required>
+            <fieldset>
+               <legend>Gender</legend>
+               <label> <input type="radio" name="gender" id="gender" required value="Male"> Male </label>
+               <label> <input type="radio" name="gender" id="gender" required value="Female"> Female </label>
+            </fieldset>
+            <label for="dob">DOB</label>
+            <input type="datetime-local" name="dob" id="dob" required>
+            <button><a href="../Html/index.html">Register</a></button>
+         </form>
+      </div>
+       <p><a href="LogIn.html"> Have an Account? LogIN! </a></p>
+      <footer >
+         <p>&copy; 2021 Tech-Week-Tastic Inspired by Samsung, Developed for Samsung</p>
+      </footer>
+   </body>
+</html>

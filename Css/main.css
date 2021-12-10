@@ -1,0 +1,417 @@
+@media only screen and (max-width: 768px)
+{
+    body{
+
+background-color:#2c3437;
+        width: 100%;
+ 
+}
+
+.headingimg { 
+	width: 100%;
+    
+    
+} 
+    #mobile_menu {
+    display: block;
+    }
+    .article{
+        width: 100%
+    }
+
+
+#nav_menu ul {
+	display: block;
+}
+#nav_menu ul li {
+	
+    display: block;
+}
+#nav_menu ul ul {
+	display: block;
+	
+}
+#nav_menu ul ul li {
+	
+    display: block;
+}
+#nav_menu ul li:hover > ul {
+	
+    display: none;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+    display: none;
+}
+#nav_menu ul {
+	padding: inherit;
+    margin: inherit;
+    display: none;
+	
+}
+#nav_menu ul li a {
+    
+	display: grid;
+	float:none;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+	padding: 0.5em;
+	background-color:#9fd2cd ;
+    font-weight: bold;
+	color: #485c6a;
+    display: none;
+}
+#nav_menu ul li a.current {
+	color: black;
+    display: none;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #9fd2cd;
+    display: none;
+}
+h1{
+    padding-bottom: 10px
+}
+
+
+ #articleb h1 { 
+    color: #e3a857;
+    font-size: auto;
+    text-align: center;
+    display: block;
+    align-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+#articleb table {
+    width: 100%;
+    height: auto;
+    text-align: center; 
+    background-color:#2c3437;
+    height: auto;
+    display: flex;
+    align-content: center;
+    
+}
+#articleb td {
+   display: block;
+   align-content: center;
+   align-items: center;
+   font: auto;
+   color: #9fd2cd; 
+    
+    
+   
+}
+.articleb{
+    width: 100%;
+    height: auto;
+    
+    
+    
+
+}
+#latest h1 { 
+    color: #e3a857;
+    font-size: auto;
+    text-align: center;
+    display: block;
+    align-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+#latest table {
+    font: auto;
+    width: 100%;
+    text-align: center; 
+    background-color:#2c3437;
+    align-content: center;
+    
+}
+#latest td {
+   display: block;
+   align-content: center;
+   align-items: center;
+   font: auto;
+   color: #9fd2cd;
+   
+}
+
+ #news h1 { 
+    color: #e3a857;
+    font-size: auto;
+    text-align: center;
+    display: block;
+    align-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+#news table {
+    width: 100%;
+    height: auto;
+    text-align: center; 
+    background-color:#2c3437;
+    
+    align-content: center;
+    
+}
+#news td {
+   display: block;
+    width: 100%;
+   align-content: center;
+   align-items: center;
+   font: auto;
+   color: #9fd2cd; 
+   
+}
+.news{
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+ a:link,  a:visited { 
+    color: #9fd2cd;
+}
+ a:hover,  a:focus {
+    color: #e3a857;
+}
+
+footer2 { 
+	
+	background-color: #9fd2cd;
+    
+} 
+footer2 p {
+    text-align: center;
+    font-size: auto;
+    color: #e3a857;
+    }
+
+    h1{
+        color: #9fd2cd;
+        text-align: center;
+        font-size: 15px;
+        
+    
+    }
+}
+
+@media only screen and (min-width: 768px)
+{	
+    
+body{
+    
+    background-color:#2c3437;
+    width: 100%;                             
+    max-width: 1920px;                      
+    margin: 0 auto;
+    border: 10px solid white;            
+         
+}
+
+.headingimg { 
+    width: 60%;
+	height: auto;
+    float: left; 
+    
+} 
+#mobile_menu {
+    display: none;
+    }
+    .article{
+        width: 100%;
+        height: auto;
+    }
+    
+    .mySlides {display:none;}
+    
+
+#nav_menu {
+	clear: left;
+}
+#nav_menu ul {
+	position: relative;
+    list-style:none;
+}
+#nav_menu ul li {
+    width: 16.65%;    
+	float: left;
+                            
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    display: block;
+	content: "";
+	clear: both;
+	
+}
+#nav_menu ul {
+padding: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: 1em ;
+	background-color:#9fd2cd;
+	color: #2c3437;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #e3a857;
+}
+#nav_menu ul li:hover ul {
+	width: 100%;
+
+}
+
+#articleb h1 {
+    
+    color: #e3a857;
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+#articleb table{
+    background-color:#2c3437;
+    width: 100%;
+    text-align: center; 
+    background-color:#2c3437; 
+    align-items: vertical;
+    
+    
+}
+
+.articleb{
+    width: 100%;
+    height: 300px;
+    }
+    
+    .adverts{
+    width: 100%;
+    height: 300px;
+    padding-left: 10px;   
+    
+    
+    
+}
+#articleb td {
+   color: #9fd2cd;
+    background-color:#2c3437;
+    text-align: center; 
+    background-color:#2c3437; 
+    align-items: vertical;
+        
+    
+    }
+#latest h1 { 
+    color: #e3a857;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+    
+}
+
+#latest table {
+    font-size: 20px;
+    width: 100%;
+    text-align: center; 
+    background-color:#2c3437;
+    
+    
+}
+#latest td {
+   
+   align-content: center;
+   align-items: center;
+   color: #ecf3ec;
+    padding-bottom: 50px;
+}
+#news h1 {
+    
+    color: #e3a857;
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+#news table{
+    background-color:#2c3437;
+    width: 100%;
+    text-align: center; 
+    background-color:#2c3437; 
+    align-items: vertical;
+    
+    
+}
+
+.news{
+    width: 100%;
+    height: 300px;
+    
+    
+}
+#articleb td {
+   color: #9fd2cd;
+    background-color:#2c3437;
+    padding-bottom: 30px;
+    text-align: center; 
+    background-color:#2c3437; 
+    align-items: vertical;
+        
+    
+    }
+
+ a:link,  a:visited { 
+    color: #ecf3ec;
+}
+ a:hover,  a:focus {
+    color: #e3a857;
+}
+
+footer2 { 
+	
+	background-color: #9fd2cd;
+    
+} 
+footer2 p {
+    text-align: center;
+    font-size: 20px;
+    color: #9fd2cd;
+}
+    h1{
+        color: #e3a857;
+        text-align: center;
+        
+    }
+    #datetime{
+        color: #e3a857;
+        float:right;
+    }

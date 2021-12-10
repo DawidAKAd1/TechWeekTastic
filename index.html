@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>TechWT</title>
+      <link rel="stylesheet" href="./Css/main.css">
+      <link rel="stylesheet" href="./Css/slicknav.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="./JavaScript/jquery.slicknav.min.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function(){
+         $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+         });
+      </script> 
+      <span id="datetime"></span>
+      <script>
+         var dt = new Date();
+         document.getElementById("datetime").innerHTML = dt.toLocaleString();
+      </script>
+   </head>
+   <body>
+      <div id="headimg">    
+         <img  class="headingimg" src="./Images/Images/Logo21.jpg">
+      </div>
+      <nav id="mobile_menu"></nav>
+      <nav id="nav_menu">
+         <ul>
+            <li><a href="./index.html" class="current">Home</a></li>
+            <li>
+               <a href="./Html/Articles.html" >Articles</a>
+               <ul>
+                  <li><a href="./Html/Article1.html ">Galaxy Z Flip 3</a></li>
+                  <li><a href="./Html/Article2.html ">Galaxy Note 20 </a></li>
+                  <li><a href="./Html/Article3.html ">Galaxy Z Fold </a></li>
+                  <li><a href="./Html/Article4.html ">Galaxy S10 Plus</a></li>
+                  <li><a href="./Html/Article5.html">Galaxy Watch 4</a></li>
+               </ul>
+            </li>
+            <li><a href=./Html/Videos.html >Videos</a></li>
+            <li><a href=./Html/About.html >About</a>
+            <li><a href=./Html/ConatctPage.html >Contact</a></li>
+            <li>
+               <a href >Members</a>  
+               <ul>
+                  <li><a href=./Html/LogIn.html >Login</a></li>
+                  <li><a href=./Html/SignUp.html >SignUp</a></li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <div class="SlideShow" style="max-width:100%">
+         <img class="mySlides" src="./Images/Images/galaxy-s21-ultra-5g-share-image.jpg" style="width:100%">
+         <img class="mySlides" src="./Images/Images/Galaxy-Z-Flip-3.jpg" style="width:100%">
+         <img class="mySlides" src="./Images/Images/note%2020%20ultra.jpg" style="width:100%">
+         <img class="mySlides" src="./Images/Images/galaxy%20z%20fold.jpg" style="width:100%">
+         <img class="mySlides" src="./Images/Images/samsung-galaxy-s10-%20+.jpg" style="width:100%">
+         <img class="mySlides" src="./Images/Images/samsung-galaxy-watch-4-and-watch-4-classic-20.jpg" style="width:100%">      
+      </div>
+      <script>
+         var myIndex = 0;
+         carousel();
+         
+         function carousel() {
+           var i;
+           var x = document.getElementsByClassName("mySlides");
+           for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+           }
+           myIndex++;
+           if (myIndex > x.length) {myIndex = 1}    
+           x[myIndex-1].style.display = "block";  
+           setTimeout(carousel, 5000); 
+         }
+      </script>
+      <div id="articleb">
+         <h1>Articles</h1>
+         <table>
+            <tr>
+               <td><a href="Article1.html"><img  class="articleb" src="./Images/Images/Galaxy-Z-Flip-3.jpg">Galaxy Z Flip 3</a></td>
+               <td><a href="Article2.html"><img  class="articleb" src="./Images/Images/Galaxy%20note%2010.webp">Galaxy Note 20 </a></td>
+               <td><a href="Article3.html"><img  class="articleb" src="./Images/Images/galaxy%20z%20fold.jpg">Galaxy Z Fold</a></td>
+               <td><a href="Article4.html"><img  class="articleb" src="./Images/Images/samsung-galaxy-s10-%20+.jpg">Galaxy S10 Plus</a></td>
+               <td><a href="Article5.html"><img  class="articleb" src="./Images/Images/samsung-galaxy-watch-4-and-watch-4-classic-20.jpg">Galaxy Watch 4</a></td>
+            </tr>
+         </table>
+      </div>
+      <div id="news">
+         <h1>News of the Week</h1>
+         <table>
+            <tr>
+               <td><iframe width="100%" height="300px" src="https://www.youtube.com/embed/iQl9Ug4PcEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+               <td><iframe width="100%" height="300px" src="https://www.youtube.com/embed/V7ixp-XwqGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+               <td><iframe width="100%" height="300px" src="https://www.youtube.com/embed/TD_BZN0bn_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+            </tr>
+         </table>
+      </div>
+      <div id="latest">
+         <h1>Latest Releases</h1>
+         <table>
+            <tr>
+               <td>Samsung Galaxy A03</td>
+               <td>Samsung Galaxy A22s 5G</td>
+               <td>Samsung W22 5G</td>
+               <td>Samsung Galaxy F42 5G</td>
+               <td>Samsung Galaxy M22</td>
+               <td>Samsung Galaxy M32/32 5G</td>
+            </tr>
+         </table>
+      </div>
+      <footer2 >
+         <p>&copy; 2021 Tech-Week-Tastic Inspired by Samsung, Developed for Samsung</p>
+      </footer2>
+   </body>
+</html>

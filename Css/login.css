@@ -1,0 +1,271 @@
+
+@media only screen and (max-width: 768px)
+{
+    body{
+
+background-color:#2c3437;
+ 
+}
+
+.headingimg { 
+	width: 100%;
+    
+} 
+    #mobile_menu {
+    display: block;
+    }
+
+
+#nav_menu ul {
+	display: block;
+}
+#nav_menu ul li {
+	
+    display: block;
+}
+#nav_menu ul ul {
+	display: block;
+	
+}
+#nav_menu ul ul li {
+	
+    display: block;
+}
+#nav_menu ul li:hover > ul {
+	
+    display: none;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+    display: none;
+}
+#nav_menu ul {
+	padding: inherit;
+    margin: inherit;
+    display: none;
+	
+}
+#nav_menu ul li a {
+    
+	display: grid;
+	float:none;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+	padding: 0.5em;
+	background-color:#9fd2cd ;
+    font-weight: bold;
+	color: #485c6a;
+    display: none;
+}
+#nav_menu ul li a.current {
+	color: black;
+    display: none;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #9fd2cd;
+    display: none;
+}
+
+#forms { 
+  padding-top: 10px;
+  display: block;
+    
+    }
+  .myform >  {
+   font: 15em sans-serif; 
+  }
+  .form {
+      background-color: #2c3437;
+      float:none;
+      display: grid;
+      grid-template-columns: [labels] auto [controls] 2fr;
+      grid-gap: 1.1em .1em;
+      justify-content: center;
+      
+  }
+  .form > label,
+  .form > fieldset  {
+    grid-column: labels;
+      color:white;
+      font-size: 1.3em;
+     
+  }
+  .form > input, 
+  .form > select,
+  .form > textarea {
+    padding: 1em;
+      border-radius: 15px;
+    
+      background-color: #9fd2cd;
+  }
+  .form > fieldset,
+  .form > button {
+    grid-column: span 3;
+  }  
+  .form  button {
+    border-radius: 15px;
+    background-color: #e3a857;
+      font-size: 30px; 
+    }
+
+
+footer { 
+	
+	background-color: #9fd2cd;    
+} 
+footer p {
+    
+    text-align: center;
+    font-size: auto;
+    color: #485c6a;
+    }
+    p{
+        color:white;
+        text-align: center;
+    }
+    a:link,  a:visited { 
+    color: #ecf3ec;
+    }
+    a:hover,  a:focus {
+    color: #9fd2cd;
+    }
+}
+    
+@media only screen and (min-width: 768px){	
+
+body{
+    
+    background-color:#2c3437;
+    width: 95%;                             
+    margin: 0 auto;
+    border: 10px solid white;            
+         
+}
+
+.headingimg { 
+    width: 60%;
+	height: auto;
+    float: left; 
+    
+} 
+#mobile_menu {
+    display: none;
+    }
+
+#nav_menu {
+	clear: left;
+}
+#nav_menu ul {
+	position: relative;
+    list-style:none;
+}
+#nav_menu ul li {
+    width: 16.65%;    
+	float: left;
+                            
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    display: block;
+	content: "";
+	clear: both;
+	
+}
+#nav_menu ul {
+padding: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: 1em ;
+	background-color:#9fd2cd;
+	color: #2c3437;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #e3a857;
+}
+#nav_menu ul li:hover ul {
+	width: 100%;
+}
+
+#forms { 
+padding-top: 5em;
+padding-left: 20em;
+padding-right: 20em;
+  display: block;
+    
+    }
+  .myform >  {
+   font: 15em sans-serif; 
+  }
+  .form {
+      background-color: #2c3437;
+      float:none;
+      display: grid;
+      grid-template-columns: [labels] auto [controls] 2fr;
+      grid-gap: 1.1em .1em;
+      justify-content: center;
+      
+  }
+  .form > label,
+  .form > fieldset  {
+    grid-column: labels;
+      color:white;
+      font-size: 1.3em;
+     
+  }
+  .form > input, 
+  .form > select,
+  .form > textarea {
+    padding: 1em;
+      border-radius: 15px;
+    
+      background-color: #9fd2cd;
+  }
+  .form > fieldset,
+  .form > button {
+    grid-column: span 3;
+  }  
+  .form  button {
+    border-radius: 15px;
+    background-color: #e3a857;
+      font-size: 30px; 
+    }
+
+
+footer { 
+	float: none;
+	background-color: #9fd2cd;
+    
+    font-size: 20px;
+    
+} 
+footer p {
+    
+    text-align: center;
+    font-size: auto;
+    color: #485c6a;
+    
+    }
+    p{
+        color:white;
+        text-align: center;
+    }
+    a:link,  a:visited { 
+    color: #ecf3ec;
+    }
+    a:hover,  a:focus {
+    color: #9fd2cd;
+    }
